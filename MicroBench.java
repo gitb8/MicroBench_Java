@@ -7,10 +7,10 @@ public class MicroBench {       // private class?, class?
     static final int RUNS = 65536;
 
     public static void main(String[] args) {
-        long start;       //assign
-        long end;         //assign
-        float first;      //assign?
-        float second;     //assign?
+        long start;
+        long end;
+        float first;
+        float second;
     
         // bench setup
 
@@ -43,7 +43,7 @@ public class MicroBench {       // private class?, class?
     for (int run = 0; run < RUNS; run++) {
         // 2nd run
 
-        // a += 1;
+        a += 1;
         // a++;             // reverse test
 
         // bench function
