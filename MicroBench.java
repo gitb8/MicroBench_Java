@@ -1,5 +1,3 @@
-// import java.lang.System;
-// import java.lang.System.out;
 
 public class MicroBench {       // private class?, class?
     
