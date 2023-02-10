@@ -1,5 +1,4 @@
-
-public class MicroBench {       // private class?, class?
+public class MicroBench {
     
     // set run repetitions
     static final int RUNS = 65536;
