@@ -1,16 +1,13 @@
-// import java.lang.System;
-// import java.lang.System.out;
-
-public class MicroBench {       // private class?, class?
+public class MicroBench {
     
     // set run repetitions
     static final int RUNS = 65536;
 
     public static void main(String[] args) {
-        long start;       //assign
-        long end;         //assign
-        float first;      //assign?
-        float second;     //assign?
+        long start;
+        long end;
+        float first;
+        float second;
     
         // bench setup
 
@@ -26,7 +23,7 @@ public class MicroBench {       // private class?, class?
             // a += 1           // reverse test
 
             // bench function
-            func1();
+            // func1();
             // func2();         // reverse test
 
         }   // /1st run
@@ -47,7 +44,7 @@ public class MicroBench {       // private class?, class?
             // a++;             // reverse test
 
             // bench function
-            func2();
+            // func2();
             // func1();         // reverse test
 
         }   // /2nd run
