@@ -4,10 +4,6 @@ import static java.lang.System.out;
 
 
 public class MicroBench {
-    
-    // set run repetitions:
-    static final int RUNS = 65536;
-
     // add variables for bench:
 
     // static int a = 0;
@@ -15,6 +11,9 @@ public class MicroBench {
 
 
     public static void main(String[] args) {
+        // set run repetitions:
+        final int RUNS = 65536;
+        
         long start;
         long end;
         float first;
